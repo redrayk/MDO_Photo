@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>20.0.1f1</Version>
+<Version>12.0</Version>
 <Cluster>
 <Name>User Configuration</Name>
 <NumElts>4</NumElts>
@@ -13,7 +13,7 @@
 </U32>
 <Boolean>
 <Name>Current_FIR_filter</Name>
-<Val>0</Val>
+<Val>1</Val>
 </Boolean>
 </Cluster>
 <EW>
@@ -27,11 +27,11 @@
 <Name>Acquire Type</Name>
 <Choice>Triggered</Choice>
 <Choice>Continues</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Path>
 <Name>Data_save_directory</Name>
-<Val></Val>
+<Val>C:\Users\User\Desktop\test</Val>
 </Path>
 </Cluster>
 </LVData>

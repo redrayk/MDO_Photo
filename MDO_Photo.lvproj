@@ -83,12 +83,6 @@
 				<Item Name="IMAQ AVI2 Close" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Close"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
-				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
-				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
-				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
-				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
-				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 			</Item>
 			<Item Name="lpcieNet" Type="VI" URL="lpcieNet">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -97,7 +91,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="IMAQ Vision AVI Folder.vi" Type="VI" URL="../../../Program Files (x86)/National Instruments/LabVIEW 2012/examples/Vision/IMAQ Vision AVI Folder.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Single Shot Application" Type="EXE">
@@ -144,7 +137,7 @@
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Single Shot Application</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">17</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">20</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Single Shot Application</Property>
@@ -174,7 +167,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MDO Video Analyzer/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{684F4AF0-E8DF-46A9-87C5-3A6CA88BA54D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F3A5BC15-0824-4C62-865C-EFB2475BC1B7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MDO_Photo/MDO_video_analyzer.vi</Property>
@@ -199,7 +192,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">STANKIN</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">MDO Video Analyzer</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">21</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">25</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_fileVersion.minor" Type="Int">3</Property>
 				<Property Name="TgtF_fileVersion.patch" Type="Int">1</Property>
@@ -215,17 +208,17 @@
 				<Property Name="Destination[0].tag" Type="Str">{471F1DA8-2DC0-4850-9242-EFC93E6F4A00}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str"></Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{3854EDA2-20A9-4A25-9A29-47A8BBF48DEB}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2012</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{20385C41-50B1-4416-AC2A-F7D6423A9BD6}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{6DA6E10B-D6FC-454E-8124-D57AB3109883}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Vision Common Resources 2016</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{6AEE300F-BD47-461C-832C-F0DF602E7665}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Vision Common Resources 2012 SP1</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{51A96C0B-8EE0-4007-8A22-CD21D06CB2D1}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI Vision Run-Time Engine 2013 SP1</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{5D9D2C64-6D70-44CB-860C-4C624A03D870}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI Vision Run-Time Engine 2012 SP1</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -234,7 +227,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">MDO Video Analyzer Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{471F1DA8-2DC0-4850-9242-EFC93E6F4A00}</Property>
 				<Property Name="INST_productName" Type="Str">proga</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">12008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">STANKIN</Property>
