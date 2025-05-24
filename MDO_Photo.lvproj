@@ -137,7 +137,7 @@
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Single Shot Application</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">20</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">22</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Single Shot Application</Property>
